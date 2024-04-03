@@ -7,7 +7,7 @@ return {
         -- first key is the mode
         n = {
           ["gh"] = { "^", desc = "move line head" },
-          ["gk"] = { "$", desc = "move line end" },
+          ["gl"] = { "$", desc = "move line end" },
         },
         i = {
           ["<C-h>"] = { "<Left>", desc = "move left when i" },

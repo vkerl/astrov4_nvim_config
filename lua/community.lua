@@ -21,4 +21,5 @@ return {
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.completion.cmp-cmdline" },
   { import = "astrocommunity.editing-support.neogen" },
+  { import = "astrocommunity.editing-support.multicursors-nvim"}
 }

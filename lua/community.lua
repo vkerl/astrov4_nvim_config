@@ -13,7 +13,7 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.typescript" },
-  { import = "astrocommunity.pack.just" },
+  -- { import = "astrocommunity.pack.just" },
   -- motion
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.motion.marks-nvim" },
@@ -21,5 +21,5 @@ return {
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.completion.cmp-cmdline" },
   { import = "astrocommunity.editing-support.neogen" },
-  { import = "astrocommunity.editing-support.multicursors-nvim"}
+  { import = "astrocommunity.editing-support.multicursors-nvim" },
 }

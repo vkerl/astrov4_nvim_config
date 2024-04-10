@@ -22,4 +22,5 @@ return {
   { import = "astrocommunity.completion.cmp-cmdline" },
   { import = "astrocommunity.editing-support.neogen" },
   { import = "astrocommunity.editing-support.multicursors-nvim" },
+  { import = "astrocommunity.git.git-blame-nvim" },
 }

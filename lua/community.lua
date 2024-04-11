@@ -18,6 +18,7 @@ return {
   -- motion
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.motion.marks-nvim" },
+  { import = "astrocommunity.motion.nvim-surround" },
   -- msic
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.completion.cmp-cmdline" },

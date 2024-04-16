@@ -12,8 +12,9 @@ return {
   -- languge
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.typescript" },
-  { import = "astrocommunity.pack.typescript-deno" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
+  -- { import = "astrocommunity.pack.typescript" },
+  -- { import = "astrocommunity.pack.typescript-deno" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.just" },
   -- motion

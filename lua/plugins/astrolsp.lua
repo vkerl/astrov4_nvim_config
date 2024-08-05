@@ -45,6 +45,10 @@ return {
     ---@diagnostic disable: missing-fields
     config = {
       -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
+      denols = {
+        -- adjust deno ls root directory detection
+        root_dir = function(...) return require("lspconfig.util").root_pattern("deno.json", "deno.jsonc")(...) end,
+      },
     },
     -- customize how language servers are attached
     handlers = {

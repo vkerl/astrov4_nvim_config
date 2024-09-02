@@ -38,3 +38,10 @@ vim.api.nvim_set_keymap("", "<D-v>", "+p<CR>", { noremap = true, silent = true }
 vim.api.nvim_set_keymap("!", "<D-v>", "<C-R>+", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("t", "<D-v>", "<C-R>+", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("v", "<D-v>", "<C-R>+", { noremap = true, silent = true })
+
+vim.api.nvim_set_keymap("", "<C-v>", "+p<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("!", "<C-v>", "<C-R>+", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("t", "<C-v>", "<C-R>+", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("v", "<C-v>", "<C-R>+", { noremap = true, silent = true })
+
+vim.g.codeium_disable_bindings = 1

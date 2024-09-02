@@ -17,7 +17,7 @@ return {
   -- { import = "astrocommunity.pack.typescript" },
   -- { import = "astrocommunity.pack.typescript-deno" },
   { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.pack.just" },
+  -- { import = "astrocommunity.pack.just" },
 
   -- motion
   { import = "astrocommunity.motion.flash-nvim" },

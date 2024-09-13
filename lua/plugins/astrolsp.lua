@@ -35,6 +35,7 @@ return {
       timeout_ms = 1000, -- default format timeout
       filter = function(client) -- fully override the default formatting function
         if vim.bo.filetype == "typescript" then return client.name == "dprint" end
+        return true
       end,
     },
     -- enable servers that you already have installed without mason

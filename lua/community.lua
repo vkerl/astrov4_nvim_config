@@ -33,6 +33,7 @@ return {
   -- { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
   { import = "astrocommunity.editing-support.neogen" },
   { import = "astrocommunity.editing-support.multicursors-nvim" },
+  { import = "astrocommunity.editing-support.conform-nvim" },
 
   -- indent
   -- { import = "astrocommunity.indent.indent-rainbowline" },
